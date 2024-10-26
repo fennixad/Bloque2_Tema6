@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 1463113638}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -433,6 +433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   velGiro: 50
+  jumpForce: 5
 --- !u!4 &1464343727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3841137785347093878, guid: 290aca15c449bad4592954ace2641cd0, type: 3}
